@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:padding="2dp"
+    app:cardElevation="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="326dp">
+
+        <!--Image view for displaying our image-->
+
+        <ImageView
+            android:id="@+id/prImg"
+            android:layout_width="403dp"
+            android:layout_height="81dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="241dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:padding="3dp" />
+
+        <TextView
+            android:id="@+id/prName"
+            android:layout_width="168dp"
+            android:layout_height="58dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="180dp"
+            android:padding="3dp"
+            android:text="Category Text"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/prPrice"
+            android:layout_width="149dp"
+            android:layout_height="44dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="126dp"
+            android:padding="3dp"
+            android:text="Category Text"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/prDesc"
+            android:layout_width="278dp"
+            android:layout_height="90dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="168dp"
+            android:layout_marginBottom="143dp"
+            android:padding="3dp"
+            android:text="Category Text"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/quan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="189dp"
+            android:layout_marginBottom="52dp"
+            android:ems="10"
+            android:hint="enter Quantity"
+            android:inputType="textPersonName"
+            android:text="1"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="152dp"
+            android:layout_height="44dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="231dp"
+            android:layout_marginBottom="4dp"
+            android:text="Total :" />
+
+        <Button
+            android:id="@+id/cal"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="38dp"
+            android:layout_marginBottom="6dp"
+            android:text="Calculate" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
