@@ -48,7 +48,7 @@ public class GalleryFragment extends Fragment {
                 startActivity(new Intent(GalleryFragment.this.getActivity(),login.class));
             }
         });
-        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("https://myfrien1-f5a16-default-rtdb.firebaseio.com/");
+        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("");
         databaseReference.child("Currentuser").addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
