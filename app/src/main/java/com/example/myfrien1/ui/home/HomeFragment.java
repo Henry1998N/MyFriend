@@ -29,7 +29,7 @@ public class HomeFragment extends Fragment {
     private FragmentHomeBinding binding;
     ListView coursesLV;
     ArrayList<Games> Gamesarr;
-    DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("https://myfrien1-f5a16-default-rtdb.firebaseio.com/");
+    DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("");
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
