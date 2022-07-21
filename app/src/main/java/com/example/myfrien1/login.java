@@ -21,7 +21,7 @@ public class login extends AppCompatActivity {
 
     TextView Signup;
     Button Login;
-    DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("https://myfrien1-f5a16-default-rtdb.firebaseio.com/");
+    DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
