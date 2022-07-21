@@ -17,7 +17,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class ManagerInsert extends AppCompatActivity {
 
-    DatabaseReference databaseReference= FirebaseDatabase.getInstance().getReferenceFromUrl("https://myfrien1-f5a16-default-rtdb.firebaseio.com/");
+    DatabaseReference databaseReference= FirebaseDatabase.getInstance().getReferenceFromUrl("");
     EditText name,id,desc,price,img;
     Button insert;
     int flag=0;
