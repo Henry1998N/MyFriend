@@ -59,7 +59,7 @@ public class CoursesLVAdapter extends ArrayAdapter<Games> {
                 @Override
                 public void onClick(View view) {
                     Toast.makeText(CoursesLVAdapter.this.getContext(), (game.getName()), Toast.LENGTH_SHORT).show();
-                    DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("https://myfrien1-f5a16-default-rtdb.firebaseio.com/");
+                    DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("");
                     databaseReference.child("Currentuser").addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
